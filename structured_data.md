@@ -2,13 +2,12 @@
 
 ```
 出生日期: 1995-08-19
-出生时间: 23:30
+出生时间: 23:20（轨道3双Lagna对比修正；用户原报23:30，家人大概回忆）
 出生地点: 湖南省耒阳市 (112.8598, 26.4226)
-时间精度: 精确到分钟（用户声明）
+时间精度: ±15分钟
 时间来源: 家人大概回忆
-有效精度: ±15分钟（按时间来源降级）
-验证轨道: 轨道3-双Lagna对比（Lagna 1°18'在0-3°边界 且 有效精度≥±15分钟）
-时间风险: MEDIUM（±15分钟 + Lagna边界）
+有效精度: ±15分钟（时间来源降级）
+验证轨道: 轨道3-双Lagna对比（已执行：1B/2A/3B → 白羊上升胜出；2A不具区分力，Sun为父亲自然Karaka两盘均强）
 读盘方式: vedic-calculator直接计算
 Ayanamsa: Lahiri (23.7961°)
 Node模式: Mean Node
@@ -26,16 +25,16 @@ Node模式: Mean Node
 ### 行星位置
 | 行星 | 星座 | 宫位 | 度数 | 逆行 |
 |------|------|------|------|------|
-| Lagna | Taurus | 1 | 1°18' | — |
-| Sun | Leo | 4 | 2°23' | D |
-| Moon | Taurus | 1 | 18°59' | D |
-| Mars | Virgo | 5 | 24°07' | D |
-| Mercury | Leo | 4 | 22°28' | D |
-| Jupiter | Scorpio | 7 | 12°10' | D |
-| Venus | Leo | 4 | 2°01' | D |
-| Saturn | Aquarius | 10 | 29°26' | R |
-| Rahu | Libra | 6 | 5°45' | R |
-| Ketu | Aries | 12 | 5°45' | R |
+| Lagna | Aries | 1 | 28°27' | — |
+| Sun | Leo | 5 | 2°23' | D |
+| Moon | Taurus | 2 | 18°54' | D |
+| Mars | Virgo | 6 | 24°07' | D |
+| Mercury | Leo | 5 | 22°28' | D |
+| Jupiter | Scorpio | 8 | 12°10' | D |
+| Venus | Leo | 5 | 2°00' | D |
+| Saturn | Aquarius | 11 | 29°26' | R |
+| Rahu | Libra | 7 | 5°45' | R |
+| Ketu | Aries | 1 | 5°45' | R |
 
 ### Chara Karakas
 | 排名 | Karaka | 行星 | 有效度数 | 说明 |
@@ -44,7 +43,7 @@ Node模式: Mean Node
 | 2 | AmK | Rahu | 24.2° | 事业指示星 |
 | 3 | BK | Mars | 24.1° | 兄弟指示星 |
 | 4 | MK | Mercury | 22.5° | 母亲指示星 |
-| 5 | PiK | Moon | 19.0° | 父亲指示星 |
+| 5 | PiK | Moon | 18.9° | 父亲指示星 |
 | 6 | PK | Jupiter | 12.2° | 子女指示星 |
 | 7 | GK | Sun | 2.4° | 障碍指示星 |
 | 8 | DK | Venus | 2.0° | 配偶指示星 |
@@ -61,7 +60,7 @@ Node模式: Mean Node
 ### Nakshatra
 | 行星 | Nakshatra | Pada | Nakshatra主 |
 |------|-----------|------|-------------|
-| Lagna | Krittika | 2 | Sun |
+| Lagna | Krittika | 1 | Sun |
 | Sun | Magha | 1 | Ketu |
 | Moon | Rohini | 3 | Moon |
 | Mars | Chitra | 1 | Mars |
@@ -75,24 +74,25 @@ Node模式: Mean Node
 ### 特殊点位
 | 点位 | 星座 | 宫位 | 说明 |
 |------|------|------|------|
-| AL (Arudha Lagna) | Leo | 4 | 外在形象/世人眼中的你 |
-| UL (Upapada Lagna) | Aquarius | 10 | 婚姻/伴侣宫 |
+| AL (Arudha Lagna) | Aquarius | 11 | 外在形象/世人眼中的你 |
+| UL (Upapada Lagna) | Cancer | 4 | 婚姻/伴侣宫 |
 
 ## 量化数据
 
 ### Shadbala
 | 行星 | Rupas | 百分比 | 排名 | 强弱 | IshtaPhala | KashtaPhala | calc基准 | 数据来源/校验 |
 |------|-------|--------|------|------|-----------|-------------|----------|---------------|
-| Sun | 9.64 | 192.8% | 1 | 强 | 30.59 | 26.31 | 9.79 / 195.8% | PDF（calc与PDF不一致；当前采用PDF）|
-| Saturn | 8.33 | 166.6% | 2 | 强 | 29.40 | 19.41 | 8.17 / 163.4% | PDF（calc与PDF不一致；当前采用PDF）|
-| Moon | 7.70 | 128.3% | 3 | 中 | 36.58 | 13.76 | 7.52 / 125.3% | PDF（calc与PDF不一致；当前采用PDF）|
-| Mercury | 6.76 | 96.6% | 4 | 弱 | 31.75 | 17.49 | 6.76 / 96.6% | PDF = calc ✅ |
-| Venus | 6.08 | 110.6% | 5 | 中 | 3.34 | 49.75 | 6.24 / 113.5% | PDF（calc与PDF不一致；当前采用PDF）|
-| Jupiter | 5.93 | 91.3% | 6 | 弱 | 25.05 | 32.14 | 6.09 / 93.7% | PDF（calc与PDF不一致；当前采用PDF）|
-| Mars | 5.30 | 105.9% | 7 | 中 | 20.96 | 38.83 | 5.2 / 104.0% | PDF（calc与PDF不一致；当前采用PDF）|
+| Sun | 9.32 | 186.4% | 1 | 强 | 32.31 | 22.63 | 9.32 / 186.4% | calc |
+| Saturn | 7.64 | 152.8% | 2 | 强 | 29.38 | 19.44 | 7.64 / 152.8% | calc |
+| Moon | 7.02 | 117.0% | 3 | 中 | 36.61 | 13.72 | 7.02 / 117.0% | calc |
+| Mercury | 6.24 | 89.1% | 4 | 弱 | 31.77 | 17.49 | 6.24 / 89.1% | calc |
+| Venus | 5.74 | 104.4% | 5 | 中 | 3.48 | 49.73 | 5.74 / 104.4% | calc |
+| Jupiter | 5.61 | 86.3% | 6 | 弱 | 25.06 | 32.11 | 5.61 / 86.3% | calc |
+| Mars | 4.95 | 99.0% | 7 | 弱 | 20.66 | 39.19 | 4.95 / 99.0% | calc |
 
-> 来源: JHora PDF (vv_819.pdf，出生信息已核对一致)；calc基准列保留vedic-calculator引擎值 (PyJHora + 9项修正)
-> 如导入同一出生时间的JHora PDF，逐行对照Shadbala；有PDF的行展示PDF值，不一致时标注“calc与PDF不一致；当前采用PDF”。
+> 来源: vedic-calculator引擎 (PyJHora + 9项修正)
+> ⚠️ 出生时间已修正为23:20，原23:30的JHora PDF (vv_819.pdf) Shadbala已失效，本表为23:20的calc值。
+> 如需最高精度，可用23:20重排JHora并提供新PDF，将逐行对照覆盖。
 > 强: ≥150% | 中: 100-149% | 弱: <100%
 
 ### SAV (Sarvashtakavarga)
@@ -100,160 +100,160 @@ Node模式: Mean Node
 #### 原始值（按星座，用于校验）
 | Ar | Ta | Ge | Cn | Le | Vi | Li | Sc | Sg | Cp | Aq | Pi | 总计 |
 |----|----|----|----|----|----|----|----|----|----|----|----|------|
-| 26 | 29 | 40 | 30 | 24 | 26 | 34 | 20 | 29 | 22 | 24 | 33 | 337 |
+| 30 | 27 | 42 | 30 | 21 | 30 | 29 | 21 | 29 | 26 | 25 | 27 | 337 |
 
 #### 宫位映射（按宫位，供core/career/love直接使用）
-> Lagna星座: Taurus
+> Lagna星座: Aries
 
 | 1宫 | 2宫 | 3宫 | 4宫 | 5宫 | 6宫 | 7宫 | 8宫 | 9宫 | 10宫 | 11宫 | 12宫 |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 29 | 40 | 30 | 24 | 26 | 34 | 20 | 29 | 22 | 24 | 33 | 26 |
+| 30 | 27 | 42 | 30 | 21 | 30 | 29 | 21 | 29 | 26 | 25 | 27 |
 
 ### BAV (Bhinnashtakavarga)
 | 行星 | Ar | Ta | Ge | Cn | Le | Vi | Li | Sc | Sg | Cp | Aq | Pi | 行和 |
 |------|----|----|----|----|----|----|----|----|----|----|----|----|------|
-| Sun | 5 | 4 | 3 | 6 | 3 | 4 | 5 | 2 | 3 | 2 | 5 | 6 | 48 |
-| Moon | 2 | 5 | 6 | 4 | 2 | 1 | 6 | 5 | 4 | 3 | 7 | 4 | 49 |
-| Mars | 2 | 3 | 4 | 4 | 2 | 3 | 7 | 1 | 4 | 3 | 2 | 4 | 39 |
-| Mercury | 5 | 4 | 7 | 3 | 5 | 4 | 7 | 2 | 7 | 2 | 3 | 5 | 54 |
-| Jupiter | 5 | 5 | 8 | 2 | 4 | 7 | 3 | 5 | 4 | 6 | 3 | 4 | 56 |
-| Venus | 4 | 5 | 7 | 5 | 5 | 5 | 3 | 3 | 6 | 3 | 1 | 5 | 52 |
-| Saturn | 3 | 3 | 5 | 6 | 3 | 2 | 3 | 2 | 1 | 3 | 3 | 5 | 39 |
+| Sun | 4 | 4 | 4 | 6 | 2 | 5 | 4 | 2 | 3 | 3 | 5 | 6 | 48 |
+| Moon | 2 | 5 | 7 | 3 | 2 | 2 | 5 | 5 | 4 | 4 | 7 | 3 | 49 |
+| Mars | 3 | 2 | 5 | 3 | 2 | 4 | 6 | 1 | 4 | 4 | 2 | 3 | 39 |
+| Mercury | 6 | 4 | 6 | 4 | 4 | 5 | 6 | 3 | 6 | 3 | 3 | 4 | 54 |
+| Jupiter | 6 | 5 | 7 | 3 | 4 | 7 | 3 | 4 | 5 | 6 | 3 | 3 | 56 |
+| Venus | 5 | 5 | 7 | 5 | 5 | 4 | 3 | 4 | 6 | 2 | 2 | 4 | 52 |
+| Saturn | 4 | 2 | 6 | 6 | 2 | 3 | 2 | 2 | 1 | 4 | 3 | 4 | 39 |
 
 ### Vimsottari Dasha
 | 大运 | 行星 | 起始 | 结束 | 年数 |
 |------|------|------|------|------|
-|  | Moon | 1988-11 | 1998-11 | 10 |
-|  | Mars | 1998-11 | 2005-11 | 7 |
-|  | Rahu | 2005-11 | 2023-11 | 18 |
-| →当前 | Jupiter | 2023-11 | 2039-11 | 16 |
-|  | Saturn | 2039-11 | 2058-11 | 19 |
-|  | Mercury | 2058-11 | 2075-11 | 17 |
-|  | Ketu | 2075-11 | 2082-11 | 7 |
-|  | Venus | 2082-11 | 2102-11 | 20 |
-|  | Sun | 2102-11 | 2108-11 | 6 |
+|  | Moon | 1988-12 | 1998-12 | 10 |
+|  | Mars | 1998-12 | 2005-12 | 7 |
+|  | Rahu | 2005-12 | 2023-12 | 18 |
+| →当前 | Jupiter | 2023-12 | 2039-12 | 16 |
+|  | Saturn | 2039-12 | 2058-12 | 19 |
+|  | Mercury | 2058-12 | 2075-12 | 17 |
+|  | Ketu | 2075-12 | 2082-12 | 7 |
+|  | Venus | 2082-12 | 2102-12 | 20 |
+|  | Sun | 2102-12 | 2108-12 | 6 |
 
 ### Moon大运 Antardasha
 | 小运 | 起始 | 结束 |
 |------|------|------|
-| Moon-Moon | 1988-11-20 | 1989-09-20 |
-| Moon-Mars | 1989-09-20 | 1990-04-21 |
-| Moon-Rahu | 1990-04-21 | 1991-10-21 |
-| Moon-Jupiter | 1991-10-21 | 1993-02-19 |
-| Moon-Saturn | 1993-02-19 | 1994-09-20 |
-| Moon-Mercury | 1994-09-20 | 1996-02-20 |
-| Moon-Ketu | 1996-02-20 | 1996-09-20 |
-| Moon-Venus | 1996-09-20 | 1998-05-22 |
-| Moon-Sun | 1998-05-22 | 1998-11-20 |
+| Moon-Moon | 1988-12-12 | 1989-10-12 |
+| Moon-Mars | 1989-10-12 | 1990-05-14 |
+| Moon-Rahu | 1990-05-14 | 1991-11-12 |
+| Moon-Jupiter | 1991-11-12 | 1993-03-13 |
+| Moon-Saturn | 1993-03-13 | 1994-10-13 |
+| Moon-Mercury | 1994-10-13 | 1996-03-13 |
+| Moon-Ketu | 1996-03-13 | 1996-10-12 |
+| Moon-Venus | 1996-10-12 | 1998-06-13 |
+| Moon-Sun | 1998-06-13 | 1998-12-13 |
 
 ### Mars大运 Antardasha
 | 小运 | 起始 | 结束 |
 |------|------|------|
-| Mars-Mars | 1998-11-20 | 1999-04-18 |
-| Mars-Rahu | 1999-04-18 | 2000-05-06 |
-| Mars-Jupiter | 2000-05-06 | 2001-04-12 |
-| Mars-Saturn | 2001-04-12 | 2002-05-22 |
-| Mars-Mercury | 2002-05-22 | 2003-05-19 |
-| Mars-Ketu | 2003-05-19 | 2003-10-15 |
-| Mars-Venus | 2003-10-15 | 2004-12-14 |
-| Mars-Sun | 2004-12-14 | 2005-04-21 |
-| Mars-Moon | 2005-04-21 | 2005-11-20 |
+| Mars-Mars | 1998-12-13 | 1999-05-11 |
+| Mars-Rahu | 1999-05-11 | 2000-05-28 |
+| Mars-Jupiter | 2000-05-28 | 2001-05-04 |
+| Mars-Saturn | 2001-05-04 | 2002-06-13 |
+| Mars-Mercury | 2002-06-13 | 2003-06-10 |
+| Mars-Ketu | 2003-06-10 | 2003-11-06 |
+| Mars-Venus | 2003-11-06 | 2005-01-06 |
+| Mars-Sun | 2005-01-06 | 2005-05-13 |
+| Mars-Moon | 2005-05-13 | 2005-12-12 |
 
 ### Rahu大运 Antardasha
 | 小运 | 起始 | 结束 |
 |------|------|------|
-| Rahu-Rahu | 2005-11-20 | 2008-08-02 |
-| Rahu-Jupiter | 2008-08-02 | 2010-12-27 |
-| Rahu-Saturn | 2010-12-27 | 2013-11-02 |
-| Rahu-Mercury | 2013-11-02 | 2016-05-21 |
-| Rahu-Ketu | 2016-05-21 | 2017-06-09 |
-| Rahu-Venus | 2017-06-09 | 2020-06-09 |
-| Rahu-Sun | 2020-06-09 | 2021-05-03 |
-| Rahu-Moon | 2021-05-03 | 2022-11-02 |
-| Rahu-Mars | 2022-11-02 | 2023-11-21 |
+| Rahu-Rahu | 2005-12-13 | 2008-08-25 |
+| Rahu-Jupiter | 2008-08-25 | 2011-01-18 |
+| Rahu-Saturn | 2011-01-18 | 2013-11-24 |
+| Rahu-Mercury | 2013-11-24 | 2016-06-13 |
+| Rahu-Ketu | 2016-06-13 | 2017-07-01 |
+| Rahu-Venus | 2017-07-01 | 2020-07-01 |
+| Rahu-Sun | 2020-07-01 | 2021-05-26 |
+| Rahu-Moon | 2021-05-26 | 2022-11-25 |
+| Rahu-Mars | 2022-11-25 | 2023-12-13 |
 
 ### Jupiter大运 Antardasha（当前）
 | 小运 | 起始 | 结束 |
 |------|------|------|
-| Jupiter-Jupiter | 2023-11-21 | 2026-01-08 |
-| Jupiter-Saturn | 2026-01-08 | 2028-07-21 | ← 当前
-| Jupiter-Mercury | 2028-07-21 | 2030-10-27 |
-| Jupiter-Ketu | 2030-10-27 | 2031-10-03 |
-| Jupiter-Venus | 2031-10-03 | 2034-06-03 |
-| Jupiter-Sun | 2034-06-03 | 2035-03-22 |
-| Jupiter-Moon | 2035-03-22 | 2036-07-21 |
-| Jupiter-Mars | 2036-07-21 | 2037-06-27 |
-| Jupiter-Rahu | 2037-06-27 | 2039-11-21 |
+| Jupiter-Jupiter | 2023-12-13 | 2026-01-30 |
+| Jupiter-Saturn | 2026-01-30 | 2028-08-13 | ← 当前
+| Jupiter-Mercury | 2028-08-13 | 2030-11-19 |
+| Jupiter-Ketu | 2030-11-19 | 2031-10-26 |
+| Jupiter-Venus | 2031-10-26 | 2034-06-26 |
+| Jupiter-Sun | 2034-06-26 | 2035-04-14 |
+| Jupiter-Moon | 2035-04-14 | 2036-08-13 |
+| Jupiter-Mars | 2036-08-13 | 2037-07-20 |
+| Jupiter-Rahu | 2037-07-20 | 2039-12-13 |
 
 ### Saturn大运 Antardasha（下一）
 | 小运 | 起始 | 结束 |
 |------|------|------|
-| Saturn-Saturn | 2039-11-21 | 2042-11-24 |
-| Saturn-Mercury | 2042-11-24 | 2045-08-03 |
-| Saturn-Ketu | 2045-08-03 | 2046-09-12 |
-| Saturn-Venus | 2046-09-12 | 2049-11-11 |
-| Saturn-Sun | 2049-11-11 | 2050-10-24 |
-| Saturn-Moon | 2050-10-24 | 2052-05-25 |
-| Saturn-Mars | 2052-05-25 | 2053-07-03 |
-| Saturn-Rahu | 2053-07-03 | 2056-05-09 |
-| Saturn-Jupiter | 2056-05-09 | 2058-11-21 |
+| Saturn-Saturn | 2039-12-13 | 2042-12-16 |
+| Saturn-Mercury | 2042-12-16 | 2045-08-25 |
+| Saturn-Ketu | 2045-08-25 | 2046-10-04 |
+| Saturn-Venus | 2046-10-04 | 2049-12-04 |
+| Saturn-Sun | 2049-12-04 | 2050-11-16 |
+| Saturn-Moon | 2050-11-16 | 2052-06-16 |
+| Saturn-Mars | 2052-06-16 | 2053-07-26 |
+| Saturn-Rahu | 2053-07-26 | 2056-06-01 |
+| Saturn-Jupiter | 2056-06-01 | 2058-12-13 |
 
 ### Mercury大运 Antardasha
 | 小运 | 起始 | 结束 |
 |------|------|------|
-| Mercury-Mercury | 2058-11-21 | 2061-04-18 |
-| Mercury-Ketu | 2061-04-18 | 2062-04-16 |
-| Mercury-Venus | 2062-04-16 | 2065-02-13 |
-| Mercury-Sun | 2065-02-13 | 2065-12-21 |
-| Mercury-Moon | 2065-12-21 | 2067-05-22 |
-| Mercury-Mars | 2067-05-22 | 2068-05-19 |
-| Mercury-Rahu | 2068-05-19 | 2070-12-06 |
-| Mercury-Jupiter | 2070-12-06 | 2073-03-13 |
-| Mercury-Saturn | 2073-03-13 | 2075-11-21 |
+| Mercury-Mercury | 2058-12-13 | 2061-05-11 |
+| Mercury-Ketu | 2061-05-11 | 2062-05-08 |
+| Mercury-Venus | 2062-05-08 | 2065-03-08 |
+| Mercury-Sun | 2065-03-08 | 2066-01-12 |
+| Mercury-Moon | 2066-01-12 | 2067-06-14 |
+| Mercury-Mars | 2067-06-14 | 2068-06-10 |
+| Mercury-Rahu | 2068-06-10 | 2070-12-29 |
+| Mercury-Jupiter | 2070-12-29 | 2073-04-04 |
+| Mercury-Saturn | 2073-04-04 | 2075-12-13 |
 
 ### Ketu大运 Antardasha
 | 小运 | 起始 | 结束 |
 |------|------|------|
-| Ketu-Ketu | 2075-11-21 | 2076-04-18 |
-| Ketu-Venus | 2076-04-18 | 2077-06-18 |
-| Ketu-Sun | 2077-06-18 | 2077-10-24 |
-| Ketu-Moon | 2077-10-24 | 2078-05-25 |
-| Ketu-Mars | 2078-05-25 | 2078-10-21 |
-| Ketu-Rahu | 2078-10-21 | 2079-11-09 |
-| Ketu-Jupiter | 2079-11-09 | 2080-10-15 |
-| Ketu-Saturn | 2080-10-15 | 2081-11-24 |
-| Ketu-Mercury | 2081-11-24 | 2082-11-21 |
+| Ketu-Ketu | 2075-12-14 | 2076-05-11 |
+| Ketu-Venus | 2076-05-11 | 2077-07-11 |
+| Ketu-Sun | 2077-07-11 | 2077-11-16 |
+| Ketu-Moon | 2077-11-16 | 2078-06-17 |
+| Ketu-Mars | 2078-06-17 | 2078-11-13 |
+| Ketu-Rahu | 2078-11-13 | 2079-12-01 |
+| Ketu-Jupiter | 2079-12-01 | 2080-11-06 |
+| Ketu-Saturn | 2080-11-06 | 2081-12-16 |
+| Ketu-Mercury | 2081-12-16 | 2082-12-13 |
 
 ### Venus大运 Antardasha
 | 小运 | 起始 | 结束 |
 |------|------|------|
-| Venus-Venus | 2082-11-21 | 2086-03-22 |
-| Venus-Sun | 2086-03-22 | 2087-03-23 |
-| Venus-Moon | 2087-03-23 | 2088-11-20 |
-| Venus-Mars | 2088-11-20 | 2090-01-21 |
-| Venus-Rahu | 2090-01-21 | 2093-01-20 |
-| Venus-Jupiter | 2093-01-20 | 2095-09-21 |
-| Venus-Saturn | 2095-09-21 | 2098-11-21 |
-| Venus-Mercury | 2098-11-21 | 2101-09-22 |
-| Venus-Ketu | 2101-09-22 | 2102-11-22 |
+| Venus-Venus | 2082-12-13 | 2086-04-14 |
+| Venus-Sun | 2086-04-14 | 2087-04-14 |
+| Venus-Moon | 2087-04-14 | 2088-12-13 |
+| Venus-Mars | 2088-12-13 | 2090-02-12 |
+| Venus-Rahu | 2090-02-12 | 2093-02-12 |
+| Venus-Jupiter | 2093-02-12 | 2095-10-14 |
+| Venus-Saturn | 2095-10-14 | 2098-12-14 |
+| Venus-Mercury | 2098-12-14 | 2101-10-14 |
+| Venus-Ketu | 2101-10-14 | 2102-12-14 |
 
 ### Sun大运 Antardasha
 | 小运 | 起始 | 结束 |
 |------|------|------|
-| Sun-Sun | 2102-11-22 | 2103-03-12 |
-| Sun-Moon | 2103-03-12 | 2103-09-10 |
-| Sun-Mars | 2103-09-10 | 2104-01-16 |
-| Sun-Rahu | 2104-01-16 | 2104-12-10 |
-| Sun-Jupiter | 2104-12-10 | 2105-09-28 |
-| Sun-Saturn | 2105-09-28 | 2106-09-10 |
-| Sun-Mercury | 2106-09-10 | 2107-07-18 |
-| Sun-Ketu | 2107-07-18 | 2107-11-22 |
-| Sun-Venus | 2107-11-22 | 2108-11-22 |
+| Sun-Sun | 2102-12-15 | 2103-04-03 |
+| Sun-Moon | 2103-04-03 | 2103-10-03 |
+| Sun-Mars | 2103-10-03 | 2104-02-08 |
+| Sun-Rahu | 2104-02-08 | 2105-01-01 |
+| Sun-Jupiter | 2105-01-01 | 2105-10-21 |
+| Sun-Saturn | 2105-10-21 | 2106-10-03 |
+| Sun-Mercury | 2106-10-03 | 2107-08-09 |
+| Sun-Ketu | 2107-08-09 | 2107-12-15 |
+| Sun-Venus | 2107-12-15 | 2108-12-14 |
 
 当前状态:
 ```
-Mahadasha: Jupiter (2023-11 ~ 2039-11)
-Antardasha: Jupiter-Saturn (2026-01-08 ~ 2028-07-21)
+Mahadasha: Jupiter (2023-12 ~ 2039-12)
+Antardasha: Jupiter-Saturn (2026-01-30 ~ 2028-08-13)
 ```
 
 ## 预分析（calculator计算，core直接引用）
@@ -273,29 +273,29 @@ Antardasha: Jupiter-Saturn (2026-01-08 ~ 2028-07-21)
 | 行星A | 行星B | 关系 | 度数差 | 影响 |
 |-------|-------|------|--------|------|
 | Rahu | Ketu | 对冲(180°) | 180.0° | |
-| Sun | Venus | 合相 | 0.37° | |
-| Sun | Rahu | 六合(60°) | 63.37° | |
-| Sun | Ketu | 三合(120°) | 116.63° | |
-| Moon | Mercury | 刑(90°) | 93.49° | |
-| Venus | Rahu | 六合(60°) | 63.74° | |
-| Venus | Ketu | 三合(120°) | 116.26° | |
-| Moon | Mars | 三合(120°) | 125.14° | |
+| Sun | Venus | 合相 | 0.38° | |
+| Sun | Rahu | 六合(60°) | 63.38° | |
+| Sun | Ketu | 三合(120°) | 116.62° | |
+| Moon | Mercury | 刑(90°) | 93.56° | |
+| Venus | Rahu | 六合(60°) | 63.75° | |
+| Venus | Ketu | 三合(120°) | 116.25° | |
+| Moon | Mars | 三合(120°) | 125.22° | |
 
 ### 宫主表
 | 宫位 | 领域 | 宫主 | 宫主落宫 |
 |------|------|------|---------|
-| 1 | 自我 | Venus | 4 |
-| 2 | 财富 | Mercury | 4 |
-| 3 | 兄弟 | Moon | 1 |
-| 4 | 家庭 | Sun | 4 |
-| 5 | 子女 | Mercury | 4 |
-| 6 | 疾病 | Venus | 4 |
-| 7 | 婚姻 | Mars | 5 |
-| 8 | 变故 | Jupiter | 7 |
-| 9 | 运势 | Saturn | 10 |
-| 10 | 事业 | Saturn | 10 |
-| 11 | 收入 | Jupiter | 7 |
-| 12 | 损耗 | Mars | 5 |
+| 1 | 自我 | Mars | 6 |
+| 2 | 财富 | Venus | 5 |
+| 3 | 兄弟 | Mercury | 5 |
+| 4 | 家庭 | Moon | 2 |
+| 5 | 子女 | Sun | 5 |
+| 6 | 疾病 | Mercury | 5 |
+| 7 | 婚姻 | Venus | 5 |
+| 8 | 变故 | Mars | 6 |
+| 9 | 运势 | Jupiter | 8 |
+| 10 | 事业 | Saturn | 11 |
+| 11 | 收入 | Saturn | 11 |
+| 12 | 损耗 | Jupiter | 8 |
 
 ## 分盘数据
 
@@ -311,16 +311,16 @@ D5  ✅ 可信（直接计算）
 ### D9 Navamsha
 | 行星 | D9星座 | D9宫位 | Vargottama |
 |------|--------|--------|-----------|
-| Lagna | Capricorn | 1 | — |
-| Sun | Aries | 4 | 否 |
-| Moon | Gemini | 6 | 否 |
-| Mars | Leo | 8 | 否 |
-| Mercury | Libra | 10 | 否 |
-| Jupiter | Libra | 10 | 否 |
-| Venus | Aries | 4 | 否 |
-| Saturn | Gemini | 6 | 否 |
-| Rahu | Scorpio | 11 | 否 |
-| Ketu | Taurus | 5 | 否 |
+| Lagna | Sagittarius | 1 | — |
+| Sun | Aries | 5 | 否 |
+| Moon | Gemini | 7 | 否 |
+| Mars | Leo | 9 | 否 |
+| Mercury | Libra | 11 | 否 |
+| Jupiter | Libra | 11 | 否 |
+| Venus | Aries | 5 | 否 |
+| Saturn | Gemini | 7 | 否 |
+| Rahu | Scorpio | 12 | 否 |
+| Ketu | Taurus | 6 | 否 |
 
 ### D10 Dasamsha
 | 行星 | D10星座 | D10宫位 |
@@ -339,30 +339,30 @@ D5  ✅ 可信（直接计算）
 ### D4 Chaturthamsha
 | 行星 | D4星座 | D4宫位 |
 |------|--------|--------|
-| Lagna | Taurus | 1 |
-| Sun | Leo | 4 |
-| Moon | Scorpio | 7 |
-| Mars | Gemini | 2 |
-| Mercury | Aquarius | 10 |
-| Jupiter | Aquarius | 10 |
-| Venus | Leo | 4 |
-| Saturn | Scorpio | 7 |
-| Rahu | Libra | 6 |
-| Ketu | Aries | 12 |
+| Lagna | Capricorn | 1 |
+| Sun | Leo | 8 |
+| Moon | Scorpio | 11 |
+| Mars | Gemini | 6 |
+| Mercury | Aquarius | 2 |
+| Jupiter | Aquarius | 2 |
+| Venus | Leo | 8 |
+| Saturn | Scorpio | 11 |
+| Rahu | Libra | 10 |
+| Ketu | Aries | 4 |
 
 ### D5 Panchamsha
 | 行星 | D5星座 | D5宫位 |
 |------|--------|--------|
-| Lagna | Taurus | 1 |
-| Sun | Aries | 12 |
-| Moon | Capricorn | 9 |
-| Mars | Scorpio | 7 |
-| Mercury | Gemini | 2 |
-| Jupiter | Pisces | 11 |
-| Venus | Aries | 12 |
-| Saturn | Libra | 6 |
-| Rahu | Aries | 12 |
-| Ketu | Aries | 12 |
+| Lagna | Libra | 1 |
+| Sun | Aries | 7 |
+| Moon | Capricorn | 4 |
+| Mars | Scorpio | 2 |
+| Mercury | Gemini | 9 |
+| Jupiter | Pisces | 6 |
+| Venus | Aries | 7 |
+| Saturn | Libra | 1 |
+| Rahu | Aries | 7 |
+| Ketu | Aries | 7 |
 
 ## 校验结果
 
@@ -375,7 +375,7 @@ D5  ✅ 可信（直接计算）
  6. 逆行标记完整      ✅
  6b. 燃烧检测        ✅ [Venus]
  7. Ayanamsa一致     ✅ Lahiri
- 7c. 盈月/亏月       亏月 (距Sun 286.6°)
+ 7c. 盈月/亏月       亏月 (距Sun 286.5°)
  8. Nakshatra↔度数   ✅
  9. Chara Karaka排序 ✅
 10. Dasha时长常数    ✅
@@ -391,10 +391,10 @@ D5  ✅ 可信（直接计算）
 ### 慢行星过运
 | 行星 | 过运星座 | 过运宫位(从Lagna数) | 说明 |
 |------|---------|-------------------|------|
-| Saturn | Pisces | 11 | ~2.5年/星座 |
-| Jupiter | Cancer | 3 | ~1年/星座 |
-| Rahu | Aquarius | 10 | ~1.5年/星座 |
-| Ketu | Leo | 4 | 自动取Rahu对冲 |
+| Saturn | Pisces | 12 | ~2.5年/星座 |
+| Jupiter | Cancer | 4 | ~1年/星座 |
+| Rahu | Aquarius | 11 | ~1.5年/星座 |
+| Ketu | Leo | 5 | 自动取Rahu对冲 |
 
 ### Sade Sati初判
 ```
@@ -406,7 +406,7 @@ Sade Sati状态: 未激活
 
 ### 双过运触发检查（Saturn-Jupiter Double Transit）
 ```
-Saturn过运相位覆盖宫位: [1, 5, 8, 11]
-Jupiter过运相位覆盖宫位: [3, 7, 9, 11]
-双过运激活宫位: [11]
+Saturn过运相位覆盖宫位: [2, 6, 9, 12]
+Jupiter过运相位覆盖宫位: [4, 8, 10, 12]
+双过运激活宫位: [12]
 ```
